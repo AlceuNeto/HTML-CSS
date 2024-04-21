@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+
+}
+header{
+    background-color: #ad6083;
+    opacity: 0.4;
+    transition: 0.4s;
+    
+}
+header:hover{
+    opacity: 1;
+}
+body{
+    max-width: 1440px;
+    background-color: #939393;
+    height: 1800px;
+}
+
+
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+    align-items: center;
+
+}   
+
+#navbar a {
+    color: black;
+}
+ul{
+    list-style: none;
+    display: flex;
+justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+}   
+
+.botoes{
+    margin-top: 10px    ;
+    display: flex;
+    gap: 45px;  
+}
+
+
+.shop{
+    display: flex;
+   
+}
+
+.shop img{
+    width: 25px;
+    margin-left: 8px;
+}
+
+
+.logo{
+    width: 95px;
+}
+
+
+
+#login{
+    padding: 20px;
+background-color: #F272AE;
+color: #fff;
+border-radius: 15px;
+border: none;
+transition: 0.5s;
+}
+
+#login:hover{
+    background-color:#0D0D0D;
+}
+ 
+
+
+::-webkit-scrollbar{
+    background-color: #0D0D0D;
+    
+        
+}
+
+
+
+::-webkit-scrollbar-thumb {
+    background: #F272AE; 
+    width: 20px;
+    height: 10px;
+    
+}
+
+.imgmain{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+   
+    
+}
+
+.imgmain img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.imgmain a{
+    position: absolute;
+    padding: 20px;
+    font-size: 35px;
+    color: black;
+    background-color: #939393;
+    border-radius: 25px;
+    opacity: 0.5;
+    transition: 1.5s;
+    left: 480px;
+    top: 770px;
+    opacity: 0;
+
+}
+.imgmain a:hover{
+    opacity: 1;
+    background-color: #F272AE;
+}
+
+.produtocard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-color: rgba(242, 114, 174, 0.6);
+    border: 7px solid #fff;
+    border-radius: 15px;
+    margin: 10px; 
+    padding: 20px; 
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    justify-content: center;
+}
+
+  .preco {
+  color: black;
+  font-size: 22px;
+  }
+
+
+  .produtocard button{
+    border: none;
+    outline: 0;
+    padding: 12px 20px; /* Espaçamento interno do botão */
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: 0.7s;
+    margin-top: 10px;
+
+}
+
+
+  .produtocard button:hover{
+    background-color: #F272AE;
+    color: #fff;
+    
+  }
+
+.produtocard img{
+    width: 150px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-b;
+    
+    
+}
+.produtocard h1,
+.produtocard p {
+    margin-bottom: 5px;
+    
+}
+    
+#produtos{
+    display: flex;
+}
+
+
+
+#mainimagem{
+    margin-top: 30px;
+    width: 100%;
+    opacity: 0.5s;
+
+}
+
+
+.menucard img{
+   width: 35px;
+}
+
+.produtocard .menucard {
+
+    text-align: center   ;
+}
+
+
+#frase{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    transition: 0.4s;
+}
+
+#frase:hover{
+    color: #F272AE;
+}
+.produtocard .menucard a {
+    display: inline-block; 
+    margin: 0 5px; 
+}
+
+.produtocard .menucard img {
+    width: 25px;
+    
+    border-radius: 100%;
+    color: #FFF;
+}
+
+
+
+#produtos{
+    display: flex;
+    justify-content: center;
+}
+
+#about{
+    text-align: center;
+    font-size: 35px;
+}
+
+
+footer{
+padding-top: 200px;
+
+width: 100%;
+
+    
+}
+
+.comecofooter {
+   
+    height: auto;
+    float: left; 
+}
+
+.comecofooter a img{
+    margin-top: 50px;
+   width: auto;
+}
+
+
+
+.contato {
+    display: flex;
+    flex-direction: row; /* Certifique-se de que o flex-direction seja uma linha */
+}
+
+
+.contact{
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
