@@ -12,6 +12,7 @@ header{
     background-color: #ad6083;
     opacity: 0.4;
     transition: 0.4s;
+    width: 100vw;
     
 }
 header:hover{
@@ -20,7 +21,9 @@ header:hover{
 body{
     max-width: 1440px;
     background-color: #939393;
-    height: 1800px;
+    height: 1500px;
+    overflow-x: hidden;
+    
 }
 
 
@@ -141,8 +144,7 @@ transition: 0.5s;
     display: flex;
     flex-direction: column;
     align-items: center;    
-    background-color: rgba(242, 114, 174, 0.6);
-    border: 7px solid #fff;
+    background-color: rgba(242, 114, 174, 0.6); 
     border-radius: 15px;
     margin: 10px; 
     padding: 20px; 
@@ -250,13 +252,15 @@ transition: 0.5s;
 
 #about{
     text-align: center;
-    font-size: 35px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 
 footer{
-padding-top: 200px;
-
+    margin-top: 200px;
+background-color: #ad6083;
+height: 200px;
 width: 100%;
 
     
@@ -277,12 +281,68 @@ width: 100%;
 
 .contato {
     display: flex;
-    flex-direction: row; /* Certifique-se de que o flex-direction seja uma linha */
+    flex-direction: row; 
+   
 }
 
 
 .contact{
+    margin-top: 25px;
     padding-left: 80px;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+    border-right: 1px solid black;
+    padding-right: 40px;
+    
+}
+
+.contact a{
+    color: black;
+    font-size: 15px;
+}
+
+
+
+
+
+
+.inputs{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+   
+    
+   
+}
+
+
+.input2{
+    position:relative;
+left: 0px;
+top: -40px;
+
+
+
+}
+
+
+.input[type="email"]{
+        position: relative;
+
+
+        top: 40px;
+}
+
+.imgmain img{
+    position: fixed;
+    z-index: -1; 
+    opacity: 0.3;
+}
+
+.menu img{
+    gap: 300px;
 }
