@@ -6,6 +6,8 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
+    
+
 
 }
 header{
@@ -13,16 +15,21 @@ header{
     opacity: 0.4;
     transition: 0.4s;
     width: 100vw;
+    padding: 0;
     
 }
 header:hover{
     opacity: 1;
 }
 body{
-    max-width: 1440px;
+    max-width: 1940px;
     background-color: #939393;
-    height: 1500px;
+    height: 100vh;
     overflow-x: hidden;
+    
+        
+    
+    margin: auto;
     
 }
 
@@ -31,9 +38,11 @@ body{
 #navbar{
     display: flex;
     justify-content: space-around;
-    gap: 0px;
     align-items: center;
+    width: 100%;
+    
 
+    
 }   
 
 #navbar a {
@@ -42,7 +51,9 @@ body{
 ul{
     list-style: none;
     display: flex;
-justify-content: center;
+    justify-content: center;
+    margin: 0; 
+    padding: 0; 
 }
 
 a{
@@ -51,7 +62,7 @@ a{
 }   
 
 .botoes{
-    margin-top: 10px    ;
+    margin-top: 10px;
     display: flex;
     gap: 45px;  
 }
@@ -141,6 +152,7 @@ transition: 0.5s;
 }
 
 .produtocard {
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;    
@@ -151,6 +163,9 @@ transition: 0.5s;
     max-width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     justify-content: center;
+    
+
+    
 }
 
   .preco {
@@ -185,7 +200,7 @@ transition: 0.5s;
     width: 150px;
     margin-bottom: 10px;
     display: flex;
-    justify-content: space-b;
+    justify-content: space-between;
     
     
 }
@@ -197,6 +212,12 @@ transition: 0.5s;
     
 #produtos{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+    max-width: 1200px;
+    
+
 }
 
 
@@ -220,14 +241,14 @@ transition: 0.5s;
 
 
 #frase{
-    margin-top: 20px;
+    margin-top: 90px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
     color: black;
     transition: 0.4s;
 }
-
 #frase:hover{
     color: #F272AE;
 }
@@ -248,20 +269,28 @@ transition: 0.5s;
 #produtos{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #about{
     text-align: center;
     font-size: 15px;
     font-weight: bold;
+    margin-bottom: 30px;
+    transition: 0.6s;
 }
 
+#about:hover{
+    color: #F272AE;
+}
 
 footer{
     margin-top: 200px;
 background-color: #ad6083;
+
+width: 1900px;
 height: 200px;
-width: 100%;
+
 
     
 }
@@ -269,9 +298,8 @@ width: 100%;
 .comecofooter {
    
     height: auto;
-    float: left; 
+    float:left; 
 }
-
 .comecofooter a img{
     margin-top: 50px;
    width: auto;
@@ -303,7 +331,19 @@ width: 100%;
 }
 
 
-
+.info{
+    margin-top: 25px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    border-right: 1px solid black;
+    padding-right: 40px;
+}
+.info a{
+    color: black;
+    font-size: 15px;
+}
 
 
 
@@ -338,11 +378,92 @@ top: -40px;
 }
 
 .imgmain img{
+    
     position: fixed;
     z-index: -1; 
     opacity: 0.3;
+    margin: auto;
 }
 
 .menu img{
     gap: 300px;
+}
+
+
+
+
+
+
+.menucard{
+    gap: 30px;
+    display: flex;
+}
+
+.menucard:hover{
+    color: white;
+}
+
+
+
+.payment img{
+    
+    width: 35px;    
+}   
+
+.payment{       
+
+    display: flex;      
+    align-items: center;    
+    align-items: flex-end;  
+    gap:20px;   
+    
+
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kuromify{  
+    margin-top: 25px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    border-right: 1px solid black;
+    padding-right: 40px;
+}
+
+.kuromify a{
+    color: black;
+    font-size: 35px;
+    gap: 30px;
+    font-weight: bold;
+    
+}
+
+.kuromify a:hover{
+    color: #F272AE;
+}
+
+
+
+
+
+
+#produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto; 
 }
